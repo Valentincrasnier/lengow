@@ -1,9 +1,10 @@
 from django.db import models
 
+
+
 # Create your models here.
-class Orders(models.Model):
-    marketplace = models.CharField()
-    idFlux = models.CharField()
-    order_id = models.CharField()
-    order_mrid = models.CharField()
-    order_refid = models.CharField()
+class Order(models.Model):
+    marketplace = models.TextField()
+    idFlux = models.TextField()
+    order_id = models.TextField()
+    order_mrid = models.TextField()
