@@ -15,7 +15,7 @@ pip3 install django-filter
 ```bash
 git clone https://github.com/Valentincrasnier/lengow.git
 cd lengow
-python3 manage.py makemigrations
+python3 manage.py makemigrations orders
 python3 manage.py migrate
 python3 manage.py runserver
 ```
