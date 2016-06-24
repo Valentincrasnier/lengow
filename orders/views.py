@@ -18,4 +18,4 @@ def index(request):
       for child in order:
         setattr(o, child.tag, child.text)
       o.save()
-    return HttpResponse("Votre importation s'est bien déroulée")
+    return HttpResponse("L'importation de orders-test.xml s'est déroulée avec succès. <br /> <a href='/api/orders/'>consulter les données</a>")
